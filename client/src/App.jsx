@@ -7,6 +7,10 @@ import {
   SignInButton,
   UserButton,
 } from "@clerk/clerk-react";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import HomePage from "./pages/Home";
+import BlogView from "./pages/Blogview";
 
 function App() {
   const [count, setCount] = useState(0);
